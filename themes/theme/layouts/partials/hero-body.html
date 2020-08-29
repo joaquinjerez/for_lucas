@@ -1,0 +1,51 @@
+{{- $hero       := .Site.Params.hero }}
+{{- $title      := index $hero "title" }}
+{{- $subtitle   := index $hero "subtitle" }}
+{{- $buttonText := index $hero "buttontext" }}
+{{- $buttonLink := index $hero "buttonlink" }}
+{{- $image      := index $hero "image" }}
+<div class="hero-body">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-6 landing-caption ">
+        <h1 class="title is-bold is-spaced white">
+          Powerful logic for M&A
+        </h1>
+        {{ with $subtitle }}
+        <h2 class="is-muted">
+          <a href="#contact">
+            <span class="button signup-button rounded secondary-btn raised">
+              Request Demo
+            </span>
+          </a>
+        </h2>
+        {{ end }}
+
+      </div>
+      <div class="column is-6">
+        <img class="scaled" src="/images/illustrations/icons/lock_nobackground.svg">
+      </div>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script> -->
+      <!-- <script src="js/animation.js"></script> -->
+
+    </div>
+    <!-- <div class="columns is-vcentered">
+      <div class="column is-12 landing-caption">
+        <h1 class="title is-bold is-spaced">
+          We are the analytics platform for due diligence
+        </h1>
+        {{ with $subtitle }}
+        <h2 class="is-11 is-muted">
+          <a href="#contact">
+            <span class="button signup-button rounded secondary-btn raised">
+              Request Demo
+            </span>
+          </a>
+        </h2>
+        {{ end }}
+
+      </div>
+    </div> -->
+
+  </div>
+</div>

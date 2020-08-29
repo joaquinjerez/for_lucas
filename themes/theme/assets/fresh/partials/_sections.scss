@@ -1,0 +1,118 @@
+/* ==========================================================================
+Section Styles
+========================================================================== */
+body {
+    overflow: hidden;
+}
+//Sections
+
+
+.section-gradient {
+    background: linear-gradient(135deg, #220a59 0%, #569fbe)
+}
+
+
+.section {
+    &.section-light-grey {
+        background-color: $light-grey; 
+    }
+    &.section-feature-grey {
+        background-color: $section-grey;
+    }
+    &.section-secondary {
+        background-color: $secondary;
+    }
+    &.section-half {
+        height: 75vh !important;
+    }
+    .title, .subtitle {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .subtitle {
+        &.is-muted {
+            color: $muted-grey;
+        }
+    }
+}
+
+//Titles
+.title-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    
+    padding-bottom: 70px;
+    padding-top: 40px;
+    
+    .title, .subtitle {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .subtitle {
+        &.is-muted {
+            color: $muted-grey;
+        }
+    }
+}
+
+//Divider
+.divider {
+    height: 3px;
+    border-radius: 50px;
+    background: $secondary;
+    width: 60px;
+    &.is-centered {
+        margin: 0 auto;
+    }
+}
+
+//Wrapper
+.content-wrapper {
+    padding: 0px 0;
+}
+
+
+//Pulled image
+img.pushed-image {
+    margin-top: -29vh;
+}
+
+//Icon box
+.media.icon-box {
+    border-top: none !important;
+    margin-bottom: -50px;
+    .media-content .content p {
+        span {
+            display: block;
+        }
+        .icon-box-title {
+            color: $blue-grey;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        .icon-box-text {
+            color: $title-grey;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+}
+.media.icon-box-second {
+    border-top: none !important;
+    .media-content .content p {
+        span {
+            display: block;
+        }
+        .icon-box-title {
+            color: $blue-grey;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        .icon-box-text {
+            color: $title-grey;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+}
+

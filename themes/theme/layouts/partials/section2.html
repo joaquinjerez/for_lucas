@@ -1,0 +1,63 @@
+<!-- {{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $features := index $section2 "features" }}
+<section class="section section-light-grey is-medium">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-6">
+        <img class="scaled" src="/images/illustrations/icons/tv.svg">
+      </div>
+      <div class="column is-6">
+        
+          <h1 class="title is-bold is-spaced">Derisk the dilligence processs.</h1>
+          <span class="icon-box-text">
+              <ul style="list-style-type:circle; font-size:20px;">
+                  <li>Analyze the strength of your intellectual property</li>
+                  <li>Determine the novelty of the science</li>
+                  <li>Discover information conflicts with public knowledge</li>
+                </ul>
+            </span>
+        
+      </div>
+    </div>
+  </div>
+</section> -->
+
+{{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $features := index $section2 "features" }}
+<section class="section is-medium">
+  <div class="container">
+      
+      <!-- <h3 class="subtitle is-5 is-muted" align= "right">{{ $subtitle }}</h3> -->
+    <div class="columns is-vcentered">
+      <div class="column is-7 mt-60" style="margin-top: -18px">
+        <img class="scaled" style="padding:20px;" src="/images/illustrations/icons/tv.svg">
+      </div>
+      
+      <div class="column is-5 mt-60" style="margin-bottom: 150px;">
+        <h1 class="title section-title" align= "center">{{ $title }}</h1>
+        {{- range $features }}
+        <article class="media icon-box" style="margin: 0px 0px -50px -75px;" >
+          <figure class="media-left">
+            <p class="image">
+              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+            </p>
+          </figure>
+          <div class="media-content mt-50">
+            <div class="content">
+              <p>
+                
+
+                <span class="icon-box-text" >{{ .text }}</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>

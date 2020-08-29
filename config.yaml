@@ -1,0 +1,212 @@
+baseURL: /
+languageCode: en-us
+title: Poloma Analytics
+theme: theme
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logo_blue_bg.png
+   image_white_bg: logo_white_bg.png
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title1: Bigger Data. Better Outcomes.
+    title2: Better Outcomes
+    # Hero subtitle (optional)
+    subtitle: We are building an algorithm to help de-risk and accurately value strategic transactions and partnerships in biotech. Both sell side and buy side can use our tool to identify inconsistencies and novelties in Intellectual Property (Patents)  and Clinical Research Documents within proprietary data rooms and the public domain.
+    # Button text
+    #buttontext: Request demo
+    # Where the main hero button links to
+    #buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: logos/jacksadweeb.PNG
+    # Footer logos (from static/images/logos/clients/___.svg)
+  #  clientlogos:
+  #  - systek
+  #  - tribe
+  #  - kromo
+  #  - infinite
+  #  - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  #- title: Features
+  #  url: /
+  #- title: Pricing
+  #  url: /
+  #- title: Dropdown
+  #  sublinks:
+  #  - title: Dropdown item
+  #    url: /
+  #  - title: Dropdown item
+  #    url: /
+  #  - title: Dropdown item
+  #    url: /
+  #- title: Log in
+  #  url: /
+  - title: Contact us
+    url: /
+    button: true
+  #section1:
+  #  title: Great power comes
+  #  subtitle: with great responsibility
+  #  tiles:
+  #  - title: App builder
+  #    icon: mouse-globe
+  #    text: This is some explanatory text that is on two rows
+  #    url: /
+  #    buttonText: Free trial
+  #  - title: Cloud integration
+  #    icon: laptop-cloud
+  #    text: This is some explanatory text that is on two rows
+  #    url: /
+  #    buttonText: Get started
+  #  - title: Add-ons & plugins
+  #    icon: plug-cloud
+  #    text: This is some explanatory text that is on two rows
+  #    url: /
+  #    buttonText: Get started
+  section2:
+    title: Derisk the Diligence Process
+    subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Analyze the strength of your intellectual property
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Determine the novelty of the science
+      icon: doc-sync
+    - title: Nomad system
+      text: Discover information conflicts with public knowledge
+      icon: integration
+  section2Plus:
+    title: Organize your data
+    subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Easily organize information and manage tasks
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: organize
+    - title: Cross-device synchronisation
+      text: Simple and clean integration with company files
+      icon: plug-cloud
+    - title: Nomad system
+      text: Gain access anywhere with our user friendly mobile app
+      icon: mobile-feed
+
+  section3:
+    title: Our User Interface
+    subtitle: To rule them all
+    image: illustrations/demo_website.PNG
+    #buttonText: Get started
+    #buttonLink: "#"
+  section4:
+    title: Our Team
+    # subtitle: we are a team of engineers
+    partners:
+    - name: Cole Thienes
+      quote: Cole is a Cornell graduate, with degrees in Bio and Economics. has extensive knowledge of database design, analytics, and aggregation. Cole has worked with most publicly available major biochemical databases and tens of millions of documents online.
+      job: Founder
+      img: cole_headshot
+      major: Econ / Bio Cornell '19
+      linkedin: "https://www.linkedin.com/in/cole-thienes/"
+    - name: Joaquin Jerez
+      quote: Joaquin is a Cornell graduate, with a degree in Mechanical Engineering. He has experience managing teams, new product development, creating business plans, and performing market analysis.
+      job: Partner
+      img: joaquin_headshot
+      major: MechE Cornell '19
+      linkedin: "https://www.linkedin.com/in/joaquin-jerez-409634135/"
+    - name: Jack Pertschuk
+      quote: Jack is a Cornell graduate, with a degree in Computer Science. He has developed a new way to use Natural Language Processing to quickly analyze  90% of drug data that exists in unstructured sources (text).
+      job: Founder
+      img: jack_headshot
+      major: CS Cornell '19
+      linkedin: "https://www.linkedin.com/in/jack-pertschuk-833196114/"
+    intern:
+    - name: Yejeong Choi
+      quote: 
+      job: UX/UI
+      img: yejeong_headshot
+      major: MPS Info Sci Cornell '20
+      linkedin: "https://www.linkedin.com/in/yejeong-choi/"
+    - name: Lucas Jerez
+      quote: 
+      job: Engineer
+      img: lucas_headshot
+      major: CS Columbia '22
+      linkedin: "https://www.linkedin.com/in/lucas-jerez-ba404b147/"
+    - name: Alex Wang
+      quote: 
+      job: Engineer
+      img: alex_headshot
+      major: CS Cornell '21
+      linkedin: "https://www.linkedin.com/in/alex-wang-6a413516a/"
+    more:
+    - name: Hannah Mahanti
+      quote: 
+      job: Marketing
+      img: hannah_headshot
+      major: Info Sci Cornell '21
+      linkedin: "https://www.linkedin.com/in/hannahmahanti/"
+    - name: Claire Noel
+      quote: 
+      job: Engineer
+      img: claire_headshot
+      major: CS Cornell '21
+      linkedin: "https://www.linkedin.com/in/claire-noel/"
+
+
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
